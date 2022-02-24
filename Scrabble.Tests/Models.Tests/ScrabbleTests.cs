@@ -25,5 +25,18 @@ namespace Scrabble.Tests
       string result = testScore.Entry;
       Assert.AreEqual(entry, result);
     }
+    [TestMethod]
+    public void SetEntry_ChangeEntry_String()
+    {
+      string entry = "Abcedarian";
+      Score testScore = new Score(entry);
+
+      string updatedEntry = "Xi";
+      testScore.Entry = updatedEntry;
+      string result = testScore.Entry;
+
+      Assert.AreEqual(updatedEntry, result);
+
+    }
   }
 }
