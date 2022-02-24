@@ -30,13 +30,19 @@ namespace Scrabble.Tests
     {
       string entry = "Abcedarian";
       Score testScore = new Score(entry);
-
       string updatedEntry = "Xi";
       testScore.Entry = updatedEntry;
       string result = testScore.Entry;
-
       Assert.AreEqual(updatedEntry, result);
 
+    }
+
+    [TestMethod]
+    public void calculateScore_returnScore_String()
+    {
+      Score testScore = new Score("test");
+      int result = testScore.calculateScore();
+      Assert.AreEqual(0, result);
     }
   }
 }
