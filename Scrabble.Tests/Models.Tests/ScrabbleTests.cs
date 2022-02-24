@@ -21,10 +21,10 @@ namespace Scrabble.Tests
     {
       string entry = "Abcedarian";
       Score testScore = new Score(entry);
-      
       string result = testScore.Entry;
       Assert.AreEqual(entry, result);
     }
+
     [TestMethod]
     public void SetEntry_ChangeEntry_String()
     {
@@ -38,11 +38,20 @@ namespace Scrabble.Tests
     }
 
     [TestMethod]
-    public void calculateScore_returnScore_String()
+    public void CalculateScore_ReturnNullScore_Int()
     {
       Score testScore = new Score("test");
-      int result = testScore.calculateScore();
+      int result = testScore.CalculateScore();
       Assert.AreEqual(0, result);
+    }
+
+    [TestMethod]
+    public void CalculateScore_ReturnScore_Int()
+    {
+      string entry = "Xi";
+      Score testScore = new Score(entry);
+      int wordScore = testScore.CalculateScore();
+      Assert.AreEqual(9, wordScore);
     }
   }
 }
