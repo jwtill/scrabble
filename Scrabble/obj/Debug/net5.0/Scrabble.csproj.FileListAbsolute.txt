@@ -1,0 +1,12 @@
+/Users/JoshTillinghast/Desktop/Scrabble.Solution/Scrabble/bin/Debug/net5.0/Scrabble.deps.json
+/Users/JoshTillinghast/Desktop/Scrabble.Solution/Scrabble/bin/Debug/net5.0/Scrabble.dll
+/Users/JoshTillinghast/Desktop/Scrabble.Solution/Scrabble/bin/Debug/net5.0/ref/Scrabble.dll
+/Users/JoshTillinghast/Desktop/Scrabble.Solution/Scrabble/bin/Debug/net5.0/Scrabble.pdb
+/Users/JoshTillinghast/Desktop/Scrabble.Solution/Scrabble/obj/Debug/net5.0/Scrabble.csproj.AssemblyReference.cache
+/Users/JoshTillinghast/Desktop/Scrabble.Solution/Scrabble/obj/Debug/net5.0/Scrabble.GeneratedMSBuildEditorConfig.editorconfig
+/Users/JoshTillinghast/Desktop/Scrabble.Solution/Scrabble/obj/Debug/net5.0/Scrabble.AssemblyInfoInputs.cache
+/Users/JoshTillinghast/Desktop/Scrabble.Solution/Scrabble/obj/Debug/net5.0/Scrabble.AssemblyInfo.cs
+/Users/JoshTillinghast/Desktop/Scrabble.Solution/Scrabble/obj/Debug/net5.0/Scrabble.csproj.CoreCompileInputs.cache
+/Users/JoshTillinghast/Desktop/Scrabble.Solution/Scrabble/obj/Debug/net5.0/Scrabble.dll
+/Users/JoshTillinghast/Desktop/Scrabble.Solution/Scrabble/obj/Debug/net5.0/ref/Scrabble.dll
+/Users/JoshTillinghast/Desktop/Scrabble.Solution/Scrabble/obj/Debug/net5.0/Scrabble.pdb
